@@ -1,0 +1,69 @@
+body{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #fae787;
+    display: grid;
+    place-items: center;
+}
+b{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#tempcalc {
+    box-shadow: 0 0 20px rgba(255, 255, 0, 0);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px; 
+  }
+  #tempcalc:hover{
+    box-shadow: 0 0 20px rgba(225, 76, 22, 0);
+    transition: box-shadow 0.3s ease;
+  }
+  @media(max-width:700px){
+    #tempcalc{
+        height: 20rem;
+        width: 26rem;
+    }
+  }
+  
+  #tempcalc label,
+  #tempcalc input,
+  #tempcalc select {
+    margin: 5px; 
+  }
+.label{
+    font: 3rem;
+}
+form{
+    box-shadow: 0 0 20px rgba(255, 255, 0, 0);
+    transition: box-shadow 0.3s ease;
+    position: absolute;
+    border-radius: 12px;
+    height: 15rem;
+    width: 30rem;
+    transition: box-shadow 0.3s ease;
+    background-color: rgb(230, 177, 77);
+}
+.form:hover{
+    box-shadow: 0 0 20px rgb(207, 115, 66);
+
+    transition: ease 2s;
+}
+input{
+    border-radius: 0.4rem;
+    padding: 0.5rem;
+}
+select{
+    border-radius: 0.4rem;
+    padding: 0.5rem;
+}
+.input{
+    width: 7rem;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    color: white;
+    background-color:black;
+}
